@@ -1,0 +1,18 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.estilo-navbar {
+    background-color: #7a1745;
+}
+.corpo-pagina{
+    background-color: #fcf4b6;
+    border-width: 2px black;
+    border-style: solid;
+}
+
+a{
+    color: black;
+}
