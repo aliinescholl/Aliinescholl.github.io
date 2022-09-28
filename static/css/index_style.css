@@ -11,8 +11,15 @@ body, html{
     background-color: #fcf4b6;
     border-width: 2px black;
     border-style: solid;
+    height: 100%;
 }
 
 a{
     color: black;
+}
+
+.calculadora{
+    border-width: 2px;
+    border-color: red;
+    border-style: solid;
 }
