@@ -14,19 +14,21 @@
     <div class="estilo-navbar">
         <ul class="navbar nav justify-content-center">
             <li class="item-navbar">
-                <a class="nav-link" aria-current="page" href="#">Sobre mim</a>
+                <a class="navbar-link" aria-current="page" href="#">Sobre mim</a>
             </li>
             <li class="item-navbar">
-                <a class="nav-link" href="#">Organizador Investimentos</a>
+                <a class="navbar-link" href="#">Organizador Investimentos</a>
             </li>
             <li class="item-navbar">
-                <a class="nav-link" href="calculadora.html">Calculadora Juros</a>
+                <a class="navbar-link" href="calculadora.html">Calculadora Juros</a>
             </li>
         </ul> 
     </div>
+
 <div class="d-flex h-100 justify-content-center align-items-center">    
-<div class="calculadora w-50">
+<div class="calculadora w-50 p-3">
     <form>
+        <h2>Calculadora Juros Compostos</h2>
         <div class="input-group mb-3">
             <label>Valor Investido</label>
             <span class="input-group-text">R$</span>
@@ -50,6 +52,9 @@
                 <option selected value="1">Anos</option>
                 <option value="2">Meses</option>
             </select>
+        </div>
+        <div class="d-grid gap-2">
+            <button type="input" class="p-2 btn-submit">Calcular</button>
         </div>
     </form>
 </div>
