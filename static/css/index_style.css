@@ -40,3 +40,21 @@ a{
     border-radius: 15px;
     border-style: none;
 }
+
+#foto-perfil{
+    border-radius: 100%;
+    width: 10em;
+    height: 10em;
+}
+
+.card-aline{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 2%;
+    margin:2%;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 50%;
+    height: 50%;
+}
