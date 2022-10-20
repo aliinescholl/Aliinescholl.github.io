@@ -5,11 +5,11 @@ body, html{
 }
 
 .estilo-navbar {
-    background-color: #7a1745;
+    background-color: #ffabc6;
 }
 
 .corpo-pagina{
-    background-color: #fcf4b6;
+    background-color: #fff7ff;
     height: 100%;
 }
 a{
@@ -26,7 +26,7 @@ a{
 .calculadora{
     background-color: white;
     border-radius: 15px;
-    box-shadow: 10px 10px 10px#82817f;
+    box-shadow: 10px 10px 10px#ffabc6;
 }
 
 .btn-submit{
@@ -35,7 +35,7 @@ a{
     --bs-btn-font-size: 1rem;
     --bs-btn-font-weight: 400;
     --bs-btn-line-height: 1.5;
-    background-color: #7a1745;
+    background-color: #ffabc6;
     color: white;
     border-radius: 15px;
     border-style: none;
@@ -48,12 +48,12 @@ a{
 }
 
 .card-aline{
-    background-color: antiquewhite;
+    background-color: #ffd1e2;
     border-radius: 15px;
     padding: 2%;
     margin:2%;
     border-width: 2px;
-    border-color: black;
+    box-shadow: #ffabc6 10px 10px 10px;
     border-style: solid;
     width: 50%;
     height: 50%;
