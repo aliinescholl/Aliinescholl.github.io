@@ -7,6 +7,7 @@ function calcularJurosMensais() {
 
     var rentabilidadeMensal = (rentabilidadeAnual/12)/100;
     var resultado = rentabilidadeMensal * valorInvestido;
+    
     var diferenca = rentabilidadeMensal - resultado;
     var desconto = diferenca * 0.225;
     resultado = desconto - diferenca;

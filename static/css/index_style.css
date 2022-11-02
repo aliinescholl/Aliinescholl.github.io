@@ -60,3 +60,24 @@ p{
     background-color: #ff3b76; 
     color: white;
 }
+
+.logo-card{
+    border-radius: 100%;
+    width:50px;
+    height: 50px;
+    margin-top:1em;
+    margin-bottom: 1em;
+}
+
+.fale-comigo{
+    width: 100%;
+    background-color: #ff3b76; 
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+.fale-comigo:hover{
+    color: white;
+}

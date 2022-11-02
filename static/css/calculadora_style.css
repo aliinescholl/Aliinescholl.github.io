@@ -1,0 +1,33 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.calc-juros{
+    background-color: #ffd1e2;
+    border-radius: 15px;
+    padding: 2%;
+    margin:2%;
+    box-shadow: #ff3b76 10px 10px 10px;
+    width: 40%;
+    height: 50%;
+}
+
+.btn-calculadora{
+    width: 100%;
+    height: 2em;
+    background-color: #ff3b76;
+    color: white;
+    border-style: none;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.campo-calculadora{
+    width: 100%;
+    height: 2em;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    border-style: none;
+}
