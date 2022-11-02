@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculadora Juros</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../static/css/calculadora_style.css'>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="corpo-pagina d-flex">
+        <form class="calculadora">
+            <h3>Saiba quanto você receberá</h3>
+            <div>
+                <label>Quanto você tem investido?</label><br>
+                <input id="valor-investido" type="number" placeholder="Digite aqui">
+            </div>
+            <div>
+                <label>Por quanto tempo pretende manter investido?(em meses)</label><br>
+                <input id="tempo" type="number" placeholder="Digite aqui">
+            </div>
+            <div>
+                <label>Qual a rentabilidade anual?</label><br>
+                <input id="rentabilidade-anual" type="number" placeholder="Digite aqui">
+            </div>
+            <div>
+                <button id = "btn-calcular" type="submit" onclick="CalcularJurosCompostos()" class="m-3">Calcular</button>
+            </div>
+        </form>
+    </div>
+    <script src="../static/js/juros_compostos.js"></script>
+</body>
+</html>
