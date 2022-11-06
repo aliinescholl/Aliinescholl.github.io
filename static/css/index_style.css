@@ -81,3 +81,13 @@ p{
 .fale-comigo:hover{
     color: white;
 }
+
+@media screen and (max-width: 750px){
+    .card-aline{
+        border-radius: 15px;
+        padding: 2%;
+        margin:2%;
+        width: 100%;
+        height: 100%;
+    }
+}

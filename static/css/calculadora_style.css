@@ -12,6 +12,8 @@ body,html{
     box-shadow: #ff3b76 10px 10px 10px;
     width: 40%;
     height: 50%;
+    justify-content: center;
+    display: flex;
 }
 
 .btn-calculadora{
@@ -30,4 +32,11 @@ body,html{
     margin-bottom: 10px;
     border-radius: 7px;
     border-style: none;
+}
+
+@media screen and (max-width: 750px){
+    .calc-juros{
+        width: 100%;
+        height: 100%;
+    } 
 }
