@@ -1,85 +1,47 @@
-ody, html{
+html, body{
     height: 100%;
     margin: 0;
     padding: 0;
-}
-
-.estilo-navbar {
-    background-color: #ff3b76;
-    height: 4em;
-}
-
-.corpo-pagina{
-    background-color: #fff7ff;
-    height: 100%;
-}
-
-.navbar-link{
-    color: white;
-    text-decoration: none;
-    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
-    display: block;
-}
-
-.navbar-link:hover{
-    color: white;    
+    background-color: #cde6fa;
 }
 
 #foto-perfil{
-    border-radius: 100%;
-    width: 10em;
-    height: 10em;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
 }
 
-.card-aline{
-    background-color: #ffd1e2;
-    border-radius: 15px;
-    padding: 2%;
-    margin:2%;
-    box-shadow: #ff3b76 10px 10px 10px;
-    width: 50%;
-    height: 50%;
+.card-central{
+    margin: 10px;
 }
 
-p{
-    padding-left: 1em;
+.card-perfil{
+    background-color: #83abcc;
+    box-shadow: #001233 10px 10px 7px 0px;
+    border-radius: 5px;
 }
 
-.calculadoras{
-    padding : 1em;
-    background-color: #ff3b76;
-    border-style: none;
-    color: white;
+hr{
+    border-color: black;
+    border-style: solid;
+    margin: 10px;
+    padding: 0;
 }
 
-.calculadoras:hover{
-    cursor: pointer;
-}
-
-.option-calculadora{
-    background-color: #ff3b76; 
-    color: white;
-}
-
-.logo-card{
-    border-radius: 100%;
-    width:50px;
-    height: 50px;
-    margin-top:1em;
-    margin-bottom: 1em;
-}
-
-.fale-comigo{
-    width: 100%;
-    background-color: #ff3b76; 
-    color: white;
-    font-weight: bold;
+.btn-com-hover{
+    background-color: #83abcc ;
+    color : #001233  ;
     padding: 10px;
-    border-radius: 7px;
-    text-decoration: none;
+    width: 100px;
+    border-radius: 5px;
+    border-style: none;
 }
-.fale-comigo:hover{
-    color: white;
+
+.btn-com-hover:hover{
+    background-color: #001233  ;
+    color : #cde6fa;
+    box-shadow: #062143 7px 7px 5px 0px;
 }
 
 @media screen and (max-width: 750px){
