@@ -5,11 +5,11 @@ body,html{
 }
 
 .calc-juros{
-    background-color: #ffd1e2;
+    background-color: #67c5ff;
     border-radius: 15px;
     padding: 2%;
     margin:2%;
-    box-shadow: #ff3b76 10px 10px 10px;
+    box-shadow: #001233 10px 10px 10px;
     width: 40%;
     height: 50%;
     justify-content: center;
@@ -19,7 +19,7 @@ body,html{
 .btn-calculadora{
     width: 100%;
     height: 2em;
-    background-color: #ff3b76;
+    background-color: #021859;
     color: white;
     border-style: none;
     border-radius: 7px;

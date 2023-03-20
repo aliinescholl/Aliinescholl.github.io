@@ -2,9 +2,7 @@ html, body{
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #cde6fa;
 }
-
 #foto-perfil{
     border-radius: 50%;
     height: 150px;
@@ -17,7 +15,7 @@ html, body{
 }
 
 .card-perfil{
-    background-color: #83abcc;
+    background-color: #4dbbff;
     box-shadow: #001233 10px 10px 7px 0px;
     border-radius: 5px;
 }
@@ -30,7 +28,7 @@ hr{
 }
 
 .btn-com-hover{
-    background-color: #83abcc ;
+    background-color: #4dbbff ;
     color : #001233  ;
     padding: 10px;
     width: 100px;
