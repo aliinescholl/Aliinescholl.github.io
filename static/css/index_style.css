@@ -15,7 +15,7 @@ html, body{
 }
 
 .card-perfil{
-    background-color: #4dbbff;
+    background-color: #a4dcff;
     box-shadow: #001233 10px 10px 7px 0px;
     border-radius: 5px;
 }
@@ -28,7 +28,7 @@ hr{
 }
 
 .btn-com-hover{
-    background-color: #4dbbff ;
+    background-color: #a4dcff;
     color : #001233  ;
     padding: 10px;
     width: 100px;
@@ -37,17 +37,49 @@ hr{
 }
 
 .btn-com-hover:hover{
-    background-color: #001233  ;
-    color : #cde6fa;
+    background-color: #4dbbff;
     box-shadow: #062143 7px 7px 5px 0px;
 }
 
+.item-lista-modal{
+    background-color: #a4dcff;
+    text-decoration: none;    
+}
+
+.item-lista-modal:hover{
+    background-color: #4dbbff; 
+}
+
+.modal-body{
+    background-color: #a4dcff;
+}
+
+.icone{
+    height: 40px;
+    width: 40px;
+    padding: 2px;
+}
+
+.botao-fechar{
+    background-color: #a4dcff;
+    border-width: 0px;
+    border-radius: 10%;
+    padding: 2%;
+}
+
+.botao-fechar:hover{
+    background-color: #4dbbff;
+}
+
 @media screen and (max-width: 750px){
-    .card-aline{
+    .card-central{
+        width: 100%;        
         border-radius: 15px;
         padding: 2%;
         margin:2%;
-        width: 100%;
         height: 100%;
+    }
+    .card-perfil{
+        width: 100%;
     }
 }

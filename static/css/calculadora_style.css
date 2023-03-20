@@ -34,6 +34,12 @@ body,html{
     border-style: none;
 }
 
+.pag-princ-link{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+
 @media screen and (max-width: 750px){
     .calc-juros{
         width: 100%;
